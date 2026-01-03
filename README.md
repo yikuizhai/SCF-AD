@@ -1,2 +1,11 @@
-# SCF-AD
+# Self-Supervised CLIP-Guided for Few-Shot Industrial Anomaly Detection（SCF-AD）
 The code will be released after the manuscript review is completed.
+
+# Abstract
+Few-shot industrial anomaly detection aims to identify unseen defects using only a limited number of normal samples. However, most existing approaches still rely heavily on auxiliary industrial datasets for training. In this paper, we propose a novel self-supervised CLIP-guided for few-shot industrial anomaly detection, which eliminates the need for auxiliary industrial data. Specifically, we first introduce a pseudo-anomaly generation strategy that synthesizes both structural and textural anomalies. Then, leveraging the cross-modal semantic understanding capability of CLIP, we contrast the multi-scale visual features with learnable textual prompts to achieve anomaly localization grounded in language semantics. Inspired by the human cognitive process of identifying anomalies through reference comparison, we introduce a support set composed of a few normal samples and perform semantic-level feature alignment with the query set via CLIP visual encoder, thereby enhancing anomaly discrimination. Furthermore, we also introduce Adapter to alleviate the semantic offset problem between text and image modalities in industrial scenarios of CLIP, and enhance the model’s robustness to the spatial structure differences between query set and support set. Extensive experiments conducted on the MVTec AD, the VisA, the BTAD and the MPDD datasets demonstrate that our method achieves competitive results under the few-shot setting. Moreover, its effectiveness and deployability are validated through realworld application in battery spot-welding defect inspection.
+
+# BSW AD Dataset
+BSW AD dataset is available. The following is the method to apply for a dataset：
+1）Use the school's email address (edu, stu, etc.) and send an email to: yikuizhai@163.com
+2）Sign the relevant agreement to ensure that it will only be used for scientific research and not for commercial purposes.A scanned version of the agreement that requires a handwritten signature. Both Chinese and English signatures are acceptable.
+3）Authorization will be obtained in 1-3 days. (Notice: If you use this dataset as the benchmark dataset for your paper, please cite the paper)
