@@ -30,8 +30,7 @@ Please follow the steps below to request access to the dataset:
 3. Authorization timeline  
    - Access will typically be granted within 1–3 business days.
      
-![Dataset Agreement](BSW_AD.png)
-
+![Dataset Agreement](https://raw.githubusercontent.com/yikuizhai/SCF-AD/main/assets/BSW_AD.png)
 > ⚠️ Important Notice  
 > If you use the BSW AD Dataset as a benchmark dataset in your paper, please cite the corresponding paper.
 
